@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.list-box {
+  width: 960px;
+  margin: 50px auto;
+  list-style: none;
+}
+
+li {
+  padding:20px;
+}
+
+li:nth-child(odd) {
+  background-color: lightgrey;
+}
+
+.box-box {
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.orange {
+  background-color: darkorange;
+}
+
+.yellow {
+  background-color: gold;
+}
+
+.rectangle {
+  width: 30%;
+  padding-top: 200px;
+  margin-bottom: 40px;
+  margin-right: 5%;
+}
+
+.rectangle:nth-of-type(3n) {
+  margin-right: 0;
+}
+

@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.position {
+  position: absolute;
+  right: 40px;
+  top: 100px;
+}
+/*↓これはいらなかった。*/
+.position i {
+  display: inline-block;
+  margin-left: 20px
+}
+
+.fa-brands {
+  font-size: 32px;
+
+}

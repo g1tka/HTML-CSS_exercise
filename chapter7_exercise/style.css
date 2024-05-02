@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: grey;
+  font-style: normal;
+}
+
+.main-visual {
+  height: 400px;
+  background-image: url(img/mv.jpg);
+  background-size: 100% auto;
+  background-position: bottom;
+}
+
+.main-text-box {
+  padding: 20px;
+}
+
+.main-text {
+  color: grey;
+  font-size: 25px;
+}
+
+main {
+  width: 840px;
+  margin: 20px auto 50px auto;
+  color: grey;
+}
+
+.contents {
+  padding: 30px;
+  border-bottom: 1px solid grey;
+}
+
+.under-text {
+  font-size: 15px;
+}
